@@ -82,7 +82,7 @@
             <configuration>
                <failBuildOnCVSS>8</failBuildOnCVSS>
                <!-- Generate all report formats -->
-               <format>ALL</format>
+               <format>HTML</format>
                <!-- Don't use Nexus Analyzer -->
                <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
                <!-- Am I the latest version? -->
