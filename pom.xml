@@ -13,15 +13,7 @@
          <artifactId>junit-jupiter-api</artifactId>
          <version>5.9.2</version>
          <scope>test</scope>
-      </dependency>
-     
-      <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-      <dependency>
-         <groupId>org.sonarsource.scanner.maven</groupId>
-         <artifactId>sonar-maven-plugin</artifactId>
-         <version>3.9.1.2184</version>
-      </dependency>
-     
+      </dependency>     
    </dependencies>
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,6 +90,13 @@
                <cveUrlModified>http://internal-mirror.mycorp.com/nvdcve-1.1-modified.json.gz</cveUrlModified>
                <cveUrlBase>http://internal-mirror.mycorp.com/nvdcve-1.1-%d.json.gz</cveUrlBase>
             </configuration>
+         </plugin>
+         
+         <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+         <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.9.1.2184</version>
          </plugin>
         
       </plugins>
