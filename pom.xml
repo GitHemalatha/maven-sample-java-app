@@ -95,6 +95,8 @@
                <centralAnalyzerEnabled>false</centralAnalyzerEnabled>
                <!-- Am I the latest version? -->
                <versionCheckEnabled>true</versionCheckEnabled>
+               <cveUrlModified>http://internal-mirror.mycorp.com/nvdcve-1.1-modified.json.gz</cveUrlModified>
+               <cveUrlBase>http://internal-mirror.mycorp.com/nvdcve-1.1-%d.json.gz</cveUrlBase>
             </configuration>
          </plugin>
         
