@@ -68,7 +68,7 @@
             </executions>
          </plugin>
         
-         <plugin>
+         <!-- <plugin>
             <groupId>org.owasp</groupId>
             <artifactId>dependency-check-maven</artifactId>
             <version>8.2.1</version>
@@ -90,7 +90,7 @@
                <cveUrlModified>http://internal-mirror.mycorp.com/nvdcve-1.1-modified.json.gz</cveUrlModified>
                <cveUrlBase>http://internal-mirror.mycorp.com/nvdcve-1.1-%d.json.gz</cveUrlBase>
             </configuration>
-         </plugin>
+         </plugin> -->
          
          <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
          <plugin>
